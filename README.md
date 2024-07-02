@@ -33,9 +33,8 @@ The project consists of:
 4. **Deploy the Contract**
 
      -Ensure Hardhat local node is running:
-
        ```bash
-       npx hardhat node
+          npx hardhat node
        ```
      -Deploy the contract to the local node:
        ```bash
@@ -43,7 +42,7 @@ The project consists of:
        ```
      -Note the contract address from the deployment output.
 
-5. **Configure the Frontend**
+6. **Configure the Frontend**
 
    Create a configuration file for the contract address:
 
@@ -51,7 +50,7 @@ The project consists of:
        const CONTRACT_ADDRESS = "your_contract_address_here";
      ```
 
-6. **Run the Frontend**
+7. **Run the Frontend**
 
    ```bash
        npm start
